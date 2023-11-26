@@ -9,10 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringAwsEcsApplication {
 	
-	@GetMapping("/")
-    public String home() {
-        return "Hello World, This is spring boot application.";
-    }
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringAwsEcsApplication.class, args);
